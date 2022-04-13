@@ -1,5 +1,7 @@
 //! Serialize a Rust data structure into JSON data.
 
+#[cfg(feature="")]
+#[cfg(feature = "mesalock_sgx")]
 use std::prelude::v1::*;
 use crate::error::{Error, ErrorCode, Result};
 use crate::io;

@@ -3,6 +3,7 @@
 //#![cfg_attr(feature = "trace-macros", feature(trace_macros))]
 //#[cfg(feature = "trace-macros")]
 //trace_macros!(true);
+#[cfg(feature = "mesalock_sgx")]
 use std::prelude::v1::*;
 
 use std::collections::BTreeMap;

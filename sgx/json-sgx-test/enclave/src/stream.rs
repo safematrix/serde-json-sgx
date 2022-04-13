@@ -5,6 +5,7 @@
 //#[macro_use]
 //extern crate serde_json;
 //
+#[cfg(feature = "mesalock_sgx")]
 use std::prelude::v1::*;
 use serde_json::{Deserializer, Value};
 

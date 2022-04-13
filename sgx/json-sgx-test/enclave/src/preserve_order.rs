@@ -1,4 +1,5 @@
 use serde_json::{from_str, Value};
+#[cfg(feature = "mesalock_sgx")]
 use std::prelude::v1::*;
 
 //#[test]

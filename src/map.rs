@@ -6,6 +6,7 @@
 //! [`BTreeMap`]: https://doc.rust-lang.org/std/collections/struct.BTreeMap.html
 //! [`IndexMap`]: https://docs.rs/indexmap/*/indexmap/map/struct.IndexMap.html
 
+#[cfg(feature = "mesalock_sgx")]
 use std::prelude::v1::*;
 use crate::lib::borrow::Borrow;
 use crate::lib::iter::FromIterator;

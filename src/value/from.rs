@@ -1,3 +1,4 @@
+#[cfg(feature = "mesalock_sgx")]
 use std::prelude::v1::*;
 
 use super::Value;
